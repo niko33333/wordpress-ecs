@@ -14,7 +14,7 @@ accountId: 'ACCOUNT_ID', // inserire il proprio AWS Account ID
 	region: 'eu-central-1', // inserire la region in cui si vuole deployare la soluzione
 	repository: {
 		arn: "arn:aws:codecommit:eu-central-1:ACCOUNT_ID:wordpress-ecs", // inserire l'arn del proprio repository codecommit
-		branch: "develop",
+		branch: "develop", // branch da cui parte la pipeline
 	},
 ```
 
